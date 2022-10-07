@@ -1,3 +1,3 @@
 # My Portfolio
 
-built using [Next.JS](https://nextjs.org)
+built using [Next.Js](https://nextjs.org)

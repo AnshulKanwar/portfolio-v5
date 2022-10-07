@@ -1,5 +1,5 @@
 import React from "react";
-import Head from 'next/head'
+import Head from "next/head";
 import Navbar from "./navbar";
 
 interface AppProps {
@@ -13,10 +13,8 @@ const Layout = ({ children }: AppProps) => {
         <title>Anshul Kanwar</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Navbar />
-      </div>
-      <div>{children}</div>
+      <Navbar />
+      {children}
     </div>
   );
 };
