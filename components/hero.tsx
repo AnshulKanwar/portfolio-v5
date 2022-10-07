@@ -10,7 +10,7 @@ const Hero = () => {
         </div>
         <div className="absolute bottom-0">
           <h1 className="text-6xl font-bold">
-            <span className="text-zinc-300 dark:text-zinc-700">
+            <span className="text-gray-300 dark:text-gray-700">
               Hi! I am
               <br />
             </span>

@@ -12,7 +12,7 @@ const Navbar = () => {
           <h1 className="text-xl font-bold">Anshul Kanwar</h1>
         </Link>
       </div>
-      <div className="flex gap-20 text-neutral-300 dark:text-neutral-700">
+      <div className="flex gap-20 text-gray-300 dark:text-gray-700">
         <a
           href="https://blog.anshulkanwar.tech"
           className="cursor-pointer transition hover:text-black dark:hover:text-white"

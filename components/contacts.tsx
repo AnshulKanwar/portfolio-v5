@@ -2,7 +2,7 @@ import React from "react";
 
 const Contacts = () => {
   return (
-    <div className="flex justify-between text-zinc-300 dark:text-zinc-700">
+    <div className="flex justify-between text-gray-300 dark:text-gray-700">
       <a
         href="mailto:me@anshulkanwar.tech"
         className="transition hover:text-black dark:hover:text-white"

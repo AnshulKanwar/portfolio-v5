@@ -14,7 +14,7 @@ const Logo = () => {
     return null;
   }
 
-  const color = theme === "light" ? "#E4E4E7" : "#3F3F46";
+  const color = theme === "light" ? "#d1d5db" : "#374151";
 
   return (
     <svg
