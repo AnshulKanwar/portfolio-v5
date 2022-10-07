@@ -17,37 +17,29 @@ const Logo = () => {
   const color = theme === "light" ? "#d1d5db" : "#374151";
 
   return (
-    <svg
-      viewBox="0 0 512 253"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 512 250">
       <path
-        id="k-top"
-        d="M499.929 4.99998L264.649 240.279V4.99998L499.929 4.99998Z"
         stroke={color}
-        stroke-width="10"
-      />
+        strokeWidth="10"
+        d="M237.685 5L5 237.685V5h232.685z"
+      ></path>
       <path
-        id="k-bottom"
-        d="M264.649 12.071L499.929 247.35L264.649 247.35V12.071Z"
         fill={color}
         stroke={color}
-        stroke-width="10"
-      />
+        strokeWidth="10"
+        d="M244.756 237.685L12.071 5h232.685v232.685z"
+      ></path>
       <path
-        id="a-right"
-        d="M247.35 240.279L12.0711 5H247.35V240.279Z"
+        stroke={color}
+        strokeWidth="10"
+        d="M499.929 5L267.244 237.685V5h232.685z"
+      ></path>
+      <path
         fill={color}
         stroke={color}
-        stroke-width="10"
-      />
-      <path
-        id="a-left"
-        d="M240.279 4.99998L5.00002 240.279V4.99998H240.279Z"
-        stroke={color}
-        stroke-width="10"
-      />
+        strokeWidth="10"
+        d="M267.244 12.071l232.685 232.685H267.244V12.071z"
+      ></path>
     </svg>
   );
 };

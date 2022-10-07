@@ -5,12 +5,9 @@ const Navbar = () => {
   return (
     <nav className="flex justify-around py-10">
       <div>
-        <Link
-          href="/"
-          className="cursor-pointer"
-        >
-          <h1 className="text-xl font-bold">Anshul Kanwar</h1>
-        </Link>
+        <h1 className="text-xl font-bold">
+          <Link href="/">Anshul Kanwar</Link>
+        </h1>
       </div>
       <div className="flex gap-20 text-gray-300 dark:text-gray-700">
         <a
