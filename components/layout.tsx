@@ -8,7 +8,7 @@ interface AppProps {
 
 const Layout = ({ children }: AppProps) => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-black">
       <Head>
         <title>Anshul Kanwar</title>
         <link rel="icon" href="/favicon.ico" />
