@@ -9,7 +9,7 @@ const Hero = () => {
           <Logo />
         </div>
         <div className="absolute bottom-0">
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold">
             <span className="text-gray-300 dark:text-gray-700">
               Hi! I am
               <br />

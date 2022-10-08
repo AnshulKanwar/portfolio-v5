@@ -13,8 +13,10 @@ const Layout = ({ children }: AppProps) => {
         <title>Anshul Kanwar</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      {children}
+      <div className="px-5">
+        <Navbar />
+        {children}
+      </div>
     </div>
   );
 };

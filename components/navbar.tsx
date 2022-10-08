@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link href="/">Anshul Kanwar</Link>
         </h1>
       </div>
-      <div className="flex gap-20 text-gray-300 dark:text-gray-700">
+      <div className="flex gap-5 md:gap-20 text-gray-300 dark:text-gray-700">
         <a
           href="https://blog.anshulkanwar.tech"
           className="cursor-pointer transition hover:text-black dark:hover:text-white"
