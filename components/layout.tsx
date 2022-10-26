@@ -15,7 +15,9 @@ const Layout = ({ children }: AppProps) => {
       </Head>
       <div className="px-5">
         <Navbar />
-        {children}
+        <div className="max-w-4xl mx-auto mb-48">
+          <div className="flex flex-col gap-24">{children}</div>
+        </div>
       </div>
     </div>
   );
