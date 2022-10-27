@@ -78,9 +78,9 @@ const Projects = () => {
                   <div className="relative h-96">
                     <Image
                       src={`/projects/${image}`}
+                      className="object-contain"
                       alt="screenshot"
-                      layout="fill"
-                      objectFit="contain"
+                      fill
                     />
                   </div>
                   <div className="flex flex-col gap-5">
