@@ -4,7 +4,7 @@ const Contacts = () => {
   return (
     <div className="flex justify-between text-gray-300 dark:text-gray-700">
       <a
-        href="mailto:me@anshulkanwar.tech"
+        href="mailto:me@anshulkanwar.com"
         className="transition hover:text-black dark:hover:text-white"
         target="_blank"
         rel="noreferrer noopener"
